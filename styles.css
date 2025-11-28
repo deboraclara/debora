@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;600;800&display=swap');
+@import url('../assets/https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;600;800&display=swap');
 
 *{
     margin: 0px;
@@ -207,6 +207,10 @@ justify-content: left;
 }
 
 @media (max-width: 480px) {
+
+    .cabecalho__menu__link:hover {
+    color: none;
+}
 
     *{
         padding: 0;
